@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Viaje al Río de la Plata (1534-1554)</title>
+                <author>Urich Schmidel</author>
+                <editor n="1">Gimena del Rio Riande</editor>
+                <editor n="2">Laura Volkind</editor>
+                <editor n="3">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>HD LAB</publisher>
+                <availability>
+                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc> 
+                <bibl>
+                <pubPlace>Buenos Aires, Alsina 500</pubPlace>
+                    <publisher>Cabaut y Cía. Editores - Librería del Colegio</publisher>      
+                    <date>1903</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="capitulo" n="1">
+                
+            <pb n="138"/>
+               <head>CAPÍTULO I</head>
+               <head type="titulocapitulo">LA NAVEGACIÓN DE AMBERES Á ESPAÑA</head>
+
+                <p>En primer lugar después de haber partido de <placeName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/14"><note ana="Si bien en el texto se indica mediante paréntesis que Andorf es sinónimo de Amberes, esta coincidencia apenas parece ser parte de la escritura fonética de Ulrico. No debe confundirse con la ciudad homónima en la Alemania del Norte"><hi rend="italic">Andorf</hi></note> 
+                (Amberes)</placeName> llegué á los 14 días á <placeName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/317"><note ana="España"><hi rend="italic">Hispania</hi></note></placeName>,á una ciudad que se llama <placeName><hi rend="italic">Khalles</hi> (Cádiz)</placeName>, hasta allí  se  cuentan  400  <hi rend="italic">millas</hi> (leguas) por mar.</p> 
+
+                <p>En la costa de aquella ciudad vi una <term ref="https://terminologias.filo.uba.ar/vocabs/1006/term/590">ballena</term> ó cetáceo de 35 pasos de largo, de la que se sacaron unos 30 cascos llenos de aceite, cascos como los de harenques.</p>
+                <p>Cerca de la susodicha ciudad de <hi rend="italic">Khalles</hi> (Cádiz) estaban surtos 14 grandes navios bien provistos de toda munición y de cuanto era necesario, que estaban por emprender viaje al <placeName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/358"><note ana="Rio de la Plata"><hi rend="italic">Rieo delle Platta</hi></note></placeName> en <placeName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/324"><note ana="Se refiere al continente americano"><hi rend="italic">Indiam</hi> (Indias)</note></placeName>. También se hallaban allí 2500 <term ref="http://terminologias.filo.uba.ar/vocabs/1006/term/359">Españoles</term> y 150 <term ref="http://terminologias.filo.uba.ar/vocabs/1006/term/360">Alto-Alemanes</term>, <term ref="http://terminologias.filo.uba.ar/vocabs/1006/term/361"><note ana="Donde dice Neerlandeses leáse Flamencos">Neerlandeses</note></term> y <term ref="http://terminologias.filo.uba.ar/vocabs/1006/term/362">Sajones</term>, junto con el capitán general de todos nosotros, que se llamaba <persName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/24"><note ana="don Pedro de Mendoza"><hi rend="italic">tum Pietro Mandossa</hi></note></persName>.</p>
+
+                <p>Entre estos 14 navios estaba uno de propiedad de los señores <persName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/18"><hi rend="italic">Sewastian Neithart</hi></persName>  y <persName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/49"><hi rend="italic">Jacoben Welser</hi></persName> de <placeName ref="https://terminologias.filo.uba.ar/vocabs/1006/term/340"><note>Nürenberg</note>Niremburgo</placeName>, quienes mandaban á su factor</p>
+                
+                <pb n="139"/>
+
+                <p><persName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/45"><hi rend="italic">Heinrich Paimen</hi></persName>con mercaderías al <hi>Rieo  delle Platta</hi>. Con estos partimos al <hi rend="italic">Rieo  delle Platta</hi> yo y otros Alto-Alemanes y Neerlandeses, más ó menos en número de 80 hombres armados de <term ref="http://terminologias.filo.uba.ar/vocabs/1006/term/397">arcabuces</term> y <term ref="http://terminologias.filo.uba.ar/vocabs/1006/term/398">ballestas</term>. Después  de  esto salimos  de <placeName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/343"><note ana="Sevilla"><hi rend="italic">Sievilla</hi></note></placeName> en 14 navíos, con los susodichos caballeros y el capitán general en el susodicho año, y día de <note ana="En el calendario litúrgico latino, 24 de agosto"><hi rend="italic">Sannt Bartholomei</hi></note> y llegamos á una ciudad en <hi rend="italic">Hispania</hi> llamada <placeName ref="http://terminologias.filo.uba.ar/vocabs/1006/term/345"><hi rend="italic">San Lucas</hi> (San Lucar de Barrameda)</placeName>, que está á 20 <hi rend="italic">millas</hi> (leguas) de <hi rend="italic">Sievilla</hi>. Allí tuvimos que demorar hasta el 1.º de Septiembre del <note ana="En el calendario litúrgico latino, 1535">susodicho año</note>, por causa de los temporales que corrían.</p>  
+</div>
+        </body> 
+</text>
+</TEI>

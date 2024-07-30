@@ -83,7 +83,8 @@
                 
                 <sp who="#NC">
                     <speaker>Alfonso Álvarez de Villasandino</speaker>
-                    <!-- <lg type="poema"
+                    <lg type="poema" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                        <!--                    <lg type="poema"
                         subtype="pregunta"
                         unisonancia="unisonante"
                         isometrismo="isométrico"
@@ -91,7 +92,6 @@
                         asonancia="consonante"
                         met="10,10, 10, 10, 10, 10, 10, 10"
                         rhyme="ABBAACCA"> -->
-                        <lg type="poema">
                         <note>Se trata de una pieza de arte mayor. La pregunta no se dirige a un poeta
                             en particular sino a los <term cRef="208">trovadores</term>. La responde
                             <persName ref="#JAB">Juan Alfonso de Baena</persName>
@@ -99,8 +99,7 @@
                         
                   
                         
-                        <lg n="1"
-                            type="octava"
+                        <lg type="estrofa" n="1"
                             met="10,10, 10, 10, 10, 10, 10, 10"
                             rhyme="ABBAACCA">
                             <l xml:id="L1">
@@ -119,8 +118,7 @@
                             <l xml:id="L8">e otros <term cRef="182">poetas</term> que diz la le<rhyme label="ienda">yenda</rhyme>.</l>
                         </lg>
                         
-                        <lg n="2"
-                            type="octava"
+                        <lg type="estrofa" n="2"
                             met="10,10, 10, 10, 10, 10, 10, 10"
                             rhyme="ABBAACCA">
                             <l xml:id="L9">Aquí todo bueno su sesso desp<rhyme label="ienda">ienda</rhyme>,</l>
@@ -140,7 +138,7 @@
                         <pb facs="#PN80-2"/>
                         
                         <lg n="3"
-                            type="octava"
+                            type="estrofa"
                             met="10,10, 10, 10, 10, 10, 10, 10"
                             rhyme="ABBAACCA">
                             <l xml:id="L17">E porque se esclaresca más esta faz<rhyme label="ienda">ienda</rhyme>
@@ -160,7 +158,7 @@
                         </lg>
                         
                         <lg n="4"
-                            type="octava"
+                            type="estrofa"
                             met="10,10, 10, 10, 10, 10, 10, 10"
                             rhyme="ABBAACCA">
                             <l xml:id="L25">Quien de los molinos, do hay grant mol<rhyme label="ienda">ienda,</rhyme>
@@ -178,7 +176,7 @@
                             <l xml:id="L32">si non tiene armas con que se def<rhyme label="ienda">ienda</rhyme>.</l>
                         </lg>
                         
-                        <lg n="5" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                        <lg n="5"  type="estrofa" met="10,10, 10, 10" rhyme="ABBA">
                             <l xml:id="L33">Pues quien poco sabe convien(e) que se r<rhyme label="ienda">ienda</rhyme>
                             </l>
                             <l xml:id="L34">como se rinde la garç' al falc<rhyme label="on">ón</rhyme>,</l>

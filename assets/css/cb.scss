@@ -31,3 +31,56 @@ $theme-colors: map-merge(
 {% endif %}
 
 @import "base", "pages", "custom";
+
+
+// p {
+//   font-size: $prose-font-size;
+//   margin-bottom: 1em;
+//   width: 100%;
+// }
+
+.prosa{
+  // margin-left: 2em;
+  padding-right: 1em;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.verso {
+font-size: 20px;
+margin-bottom:4px;
+}
+
+.estribillo
+{
+font-style: italic;
+font-size: 20px;
+margin-bottom:4px;
+}
+
+.nota {
+font-size: 16px;
+margin-bottom: 24px;
+}
+
+.info {
+  display: none;
+  font-size: 18px;
+font-weight: bold;
+
+}
+
+.rubrica {
+font-size: 18px;
+font-style: italic;
+color: #7b241c
+}
+
+
+.estrofa {
+  margin-bottom:40px;
+  }
+
+  .rima{
+    font-weight: bold;
+    }

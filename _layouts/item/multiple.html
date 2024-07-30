@@ -8,7 +8,10 @@ gallery: true
 
 <div class="row">
     <div class="col-md-6">
-
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     {% for child in children %}
     <div id="{{ child.objectid }}" class="mb-4">
         <a class="spotlight gallery-img" data-download="true" title="{% if page.title != child.title %}{{ child.title | escape }}{% else %}{{ page.title | escape }} [{{ forloop.index }}]{% endif %}" href="{{ child.object_location | relative_url }}">

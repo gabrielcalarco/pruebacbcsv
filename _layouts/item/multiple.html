@@ -6,7 +6,8 @@ gallery: true
 ---
 {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 
-<div class="mb-4 text-center">
+<div class="row">
+    <div class="col-md-6">
 
     {% for child in children %}
     <div id="{{ child.objectid }}" class="mb-4">
@@ -16,10 +17,20 @@ gallery: true
         </a>
     </div>
     {% endfor %}
-
-    <div class="my-2">
+</div>
+<div class="col-md-6">
 
         {% include item/child/compound-item-download-buttons.html %}
+        {% if page.object_multiple %}
+        {% assign transcripciones_type = page.object_multiple | slice: 0,1 %}
+        {% if transcripciones_type == '/' %}
+        {% assign transcripciones_location = page.object_multiple | remove_first: '/' %}
+        {% assign transcripciones = site.pages | where: 'path', transcripciones_location | first %}
+        {{ transcripciones.content | markdownify }}
+        {% else %}
+        {{ page.object_multiple | markdownify }}
+        {% endif %}
+        {% endif %} 
 
     </div>
 

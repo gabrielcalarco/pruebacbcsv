@@ -1,5 +1,5 @@
 {%- assign templates = site.data[site.metadata] | where_exp: 'item','item.parentid == nil ' | map: "display_template" -%}
-{%- assign types = "image;audio;video;pdf;panorama;record;compound_object;multiple" | split: ";" -%}
+{%- assign types = "image;audio;video;pdf;panorama;record;compound_object;multiple;transcripciones" | split: ";" -%}
 <div class="card mb-3" >
   <div class="card-body">
     <h2 class="card-title h5">Colección</h2>
@@ -20,7 +20,7 @@
       {% when 'panorama' %}
       <a class="text-dark" href="{{ 'panorama' | prepend: '/browse.html#' | relative_url }}">Panorama{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-panorama"/></svg></a><br>
       {% when 'transcripciones' %}
-      <a class="text-dark" href="{{ 'transcripciones' | prepend: '/browse.html#' | relative_url }}">Transcripciones{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-default"/></svg></a><br>
+      <a class="text-dark" href="{{ 'transcripciones' | prepend: '/browse.html#' | relative_url }}">Transcripciones <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-default"/></svg></a><br>
       {% when 'record' %}
       <a class="text-dark" href="{{ 'record' | prepend: '/browse.html#' | relative_url }}">Record{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg></a><br>
       {% when 'compound_object' %}

@@ -6,22 +6,13 @@ layout: item/item-page-base
 gallery: true
 custom-foot: js/modal-hash-js.html
 ---
-<div>
-    {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
-    <div>
-        {% include item/child/compound-item-modal-gallery.html %}
-    </div>
-    <div>
+{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+
+<div class="mb-4 ">
+    
+    {% include item/child/compound-item-modal-gallery.html %}
+
+    <div class="my-2">
         {% include item/child/compound-item-download-buttons.html %}
-        {% if page.object_compund_object %}
-        {% assign transcripciones_type = page.object_compund_object | slice: 0,1 %}
-        {% if transcripciones_type == '/' %}
-        {% assign transcripciones_location = page.object_compund_object | remove_first: '/' %}
-        {% assign transcripciones = site.pages | where: 'path', transcripciones_location | first %}
-        {{ transcripciones.content | markdownify }}
-        {% else %}
-        {{ page.object_compund_object | markdownify }}
-        {% endif %}
-        {% endif %} 
     </div>
 </div>

@@ -10,9 +10,9 @@ custom-foot: js/browse-js.html
     <div class="col-md-8 text-center">
         <form role="search" id="lunrSearch" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group-lg">
-                <input type="text" class="form-control" id="filterTextBox" placeholder="Filtro ... " aria-label="Buscar"> 
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Introduce el contenido de tu búsqueda aquí" aria-label="Buscar"> 
                 <button class="btn btn-success" type="submit" title="Filtrar objetos" id="filterButton" >Buscar</button>
-                <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Limpiar</button>
+                <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Vaciar</button>
             </div>
         </form>
         <div class="h2" id="numberOf"></div>
@@ -32,8 +32,10 @@ custom-foot: js/browse-js.html
             </div>
         </div>
     </div>
+    <br/>
 </div>
-
+<br/>
+<br/>
 <div id="loadingIcon" class="text-center">
     <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Cargando...</span></div>
 </div>

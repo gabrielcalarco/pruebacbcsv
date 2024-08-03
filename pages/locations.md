@@ -9,5 +9,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Buscar por localización
 
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Encuentra elementos en la colección según su localización.

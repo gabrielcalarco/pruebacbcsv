@@ -1,6 +1,6 @@
 ---
 layout: home-infographic
-title: Home
+title: Inicio
 permalink: /
 ---
 

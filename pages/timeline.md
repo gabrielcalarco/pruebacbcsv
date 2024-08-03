@@ -1,5 +1,5 @@
 ---
-title: Timeline
+title: Cronología
 layout: timeline
 permalink: /timeline.html
 ---

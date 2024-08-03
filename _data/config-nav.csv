@@ -1,9 +1,9 @@
 display_name,stub,dropdown_parent
 Inicio,/
-Navega,/browse.html
+Elementos,/browse.html
 Temas,/subjects.html
 Localizaciones,/locations.html
 Mapa,/map.html
 Cronología,/timeline.html
-Datos,/data.html
+Metadatos,/data.html
 Sobre el proyecto,/about.html

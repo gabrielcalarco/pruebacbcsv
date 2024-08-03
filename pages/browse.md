@@ -1,5 +1,5 @@
 ---
-title: Browse
+title: Elementos
 layout: browse
 permalink: /browse.html
 ---

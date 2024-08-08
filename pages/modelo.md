@@ -1,7 +1,7 @@
 ---
-title: About
+title: Modelo
 layout: about
-permalink: /about.html
+permalink: /modelo.html
 # include CollectionBuilder info at bottom
 credits: true
 # Edit the markdown on in this file to describe your collection

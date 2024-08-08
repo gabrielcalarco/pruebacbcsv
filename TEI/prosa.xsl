@@ -39,9 +39,12 @@
 
 
     <xsl:template match="//note">
-        <p class="nota">
-            <xsl:apply-templates/>
-        </p>
+    <a>
+        <xsl:attribute name="class">pop-annotation</xsl:attribute>
+        <xsl:attribute name="tabindex">0</xsl:attribute>
+        <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+        <xsl:apply-templates/>
+        </a>
     </xsl:template>   
 
 <xsl:template match="//p">

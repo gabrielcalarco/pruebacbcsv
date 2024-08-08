@@ -4,6 +4,7 @@
 # Adds gallery view to open images full screen using object_location, with fall back to image_small.
 layout: item/item-page-base
 custom-foot: js/popover-js.html;js/popover-placename-js.html;js/popover-annotate-js.html
+gallery: true
 ---
 {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 

@@ -88,6 +88,10 @@
         <br/>
     </xsl:template>   
 
-    
+            <xsl:template match="//speaker">
+        <p class="speaker"> 
+            -<xsl:apply-templates/>:
+        </p>
+    </xsl:template>
 
 </xsl:stylesheet>

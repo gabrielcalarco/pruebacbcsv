@@ -18,7 +18,6 @@
        
         <h1><xsl:apply-templates select="//title[1]"/></h1>
 
-
         <div class="row clearfix">
             <xsl:apply-templates select="//lg[@type='poema']"/>
         </div>  
@@ -32,7 +31,7 @@
     <!-- Transformaciones -->
 
 
-        <xsl:template match="//lg[@type='poema']">     
+    <xsl:template match="//lg[@type='poema']">     
         <p class="info"><xsl:value-of select="concat('Unisonancia: ', @unisonancia)"/></p>
         <p class="info"><xsl:value-of select="concat('Isometrismo: ', @isometrismo)"/></p>
         <p class="info"><xsl:value-of select="concat('Isoestrofismo: ', @isoestrofismo)"/></p>
@@ -108,6 +107,12 @@
         <br/>
     </xsl:template>   
 
-    
+        <xsl:template match="//speaker">
+        <p class="speaker"> 
+            -<xsl:apply-templates/>:
+        </p>
+    </xsl:template>
+
+
 
 </xsl:stylesheet>

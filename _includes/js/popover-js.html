@@ -7,20 +7,21 @@
   };
 
   /* add popovers to each element */
-  $(".pop-annotation").each(function() {
-
-    var popId = $(this).attr('id');
+  /* select elements with the class 'pop-annotation'*/
+  var popAnnotations = document.querySelectorAll('.pop-annotation');
+  /* use data to create popover */
+  popAnnotations.forEach(function(element) {
+    var popId = element.getAttribute('id');
     var record = peopledata[popId];
     if (record) {
       var popoverOptions = {
-            title: record.name,
-            content: record.annotation,
-            trigger: 'focus',
-            html: true
+        title: record.name,
+        content: record.annotation,
+        trigger: 'focus',
+        html: true
       };
-      $(this).popover(popoverOptions);
+      /* initialize popover */
+      new bootstrap.Popover(element, popoverOptions);
     }
-
   });
-  
 </script>

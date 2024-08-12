@@ -93,37 +93,6 @@ h1 {
   margin-bottom:40px;
   }
 
-
-
-    .footer-link {
-      color: #494440 !important;
-      &:hover {
-          color: black !important;
-      }
-  }
-    .custom-card-title {
-      font-size: 35px;
-  }
-  
-  .custom-card-text {
-      font-size: 20px;
-  }
-  
-  .card a {
-      color: #494440 !important;
-      &:hover {
-          color: black !important;
-      }
-  }
-  
   .pop-annotation {
       cursor: pointer;
-  }
-  
-  a, a:not([href]) {
-      color: #0066CC;
-      &:hover {
-          color: #0066CC;
-      }
-      font-weight: 500;
   }

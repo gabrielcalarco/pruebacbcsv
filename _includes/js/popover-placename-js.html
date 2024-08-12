@@ -7,23 +7,21 @@
     };
 
     /* add popovers to each element */
-    $(".pop-annotation").each(function() {
-  
-      var popId = $(this).attr('id');
+    /* select elements with the class 'pop-annotation'*/
+    var popAnnotations = document.querySelectorAll('.pop-annotation');
+    /* use data to create popover */
+    popAnnotations.forEach(function(element) {
+      var popId = element.getAttribute('id');
       var record = placedata[popId];
-      if (record) {
-        if (record.annotation.includes('filler-annotation')){
-          $(this).contents().unwrap();
-        } else
+      if (record && record.city && record.annotation) {
         var popoverOptions = {
-              title: record.city,
-              content: record.annotation,
-              trigger: 'focus',
-              html: true
+          title: record.city,
+          content: record.annotation,
+          trigger: 'focus',
+          html: true
         };
-        $(this).popover(popoverOptions);
+        /* initialize popover */
+        new bootstrap.Popover(element, popoverOptions);
       }
-  
     });
-    
 </script>

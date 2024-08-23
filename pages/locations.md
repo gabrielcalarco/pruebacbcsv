@@ -1,5 +1,5 @@
 ---
-title: Localización
+title: Lugares
 layout: cloud
 permalink: /locations.html
 # Default locations page is configured in "_data/theme.yml"
@@ -7,6 +7,6 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Buscar por localización
+## Buscar por Lugares
 
-Encuentra elementos en la colección según su localización.
+Encuentra elementos en la colección según su lugar de procedencia.

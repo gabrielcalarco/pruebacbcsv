@@ -1,5 +1,5 @@
 ---
-title: Elementos
+title: Colección
 layout: browse
 permalink: /browse.html
 ---

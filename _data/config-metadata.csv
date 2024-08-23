@@ -4,7 +4,7 @@ creator,Creador/a,,,DCTERMS.creator,creator
 date,Fecha de creación,,,DCTERMS.date,dateCreated
 description,Descripción,,,DCTERMS.description,description
 subject,Temas,true,,DCTERMS.subject,keywords
-location,Localización,,,,contentLocation
+location,Lugares,,,,contentLocation
 latitude,Latitud,,,,
 longitude,Longitud,,,,
 source,Fuente,,,,

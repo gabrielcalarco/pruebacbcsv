@@ -9,4 +9,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Buscar por Lugares
 
-Encuentra elementos en la colección según su lugar de procedencia.
+Encuentra documentos en la colección según su lugar de procedencia.
